@@ -37,6 +37,9 @@ public class Draft {
                 .trim();
 
         System.out.println(landingPageProductName + " is extracted from Home page");
+
+        Thread.sleep(2000);
+        driver.quit();
     }
 
 }
